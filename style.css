@@ -1,0 +1,43 @@
+.body
+    {
+      background-color:white;
+      background-image: url("https://t3.ftcdn.net/jpg/03/50/64/40/360_F_350644095_ZtIo5lqaaBSeIXBxQVvgy9L1lQqcwCUM.jpg");
+    height: 100vh;
+    width: auto;
+    }
+    .container {
+  text-align: center;
+    }
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  padding-left: 40%;
+  
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color:aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+#resetBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 4%;
+  color:white;
+  background-color: black;
+}
+
+#winner {
+  margin-top: 20px;
+  font-size: 24px;
+}
